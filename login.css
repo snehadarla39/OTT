@@ -1,0 +1,140 @@
+
+/* Background setup */
+
+.login-container {    
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  /* background-color: black; */
+  background: url("../assets/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Black transparent box */
+.login-box {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 40px 35px;
+  border-radius: 10px;
+  width: 350px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Title */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Form fields */
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.form-group input {
+  width: 50%;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  outline: 2px solid #e50914;
+}
+
+/* Options row */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+
+
+.options .forgot-link {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+.options .forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Sign In button */
+.sign-in-btn {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  left:80px;
+}
+
+.sign-in-btn:hover {
+  background-color: #b00610;
+}
+
+/* Bottom text */
+.bottom-text {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.bottom-text label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+}
+
+.bottom-text p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bottom-text .register-link {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.bottom-text .register-link:hover {
+  text-decoration: underline;
+}
+/* .fullbg {
+  background-Size: 'cover';
+  background-Position: 'center';
+  background-Repeat: 'no-repeat';
+  width: '100%';
+  height: '100vh';
+  background: url('');
+} */
